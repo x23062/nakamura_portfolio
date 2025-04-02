@@ -1,16 +1,31 @@
 import './Products.css';
+import MyIcon from './../../../assets/images/myicon.png';
 
 function Products() {
   return (
     <div className="Products-container">
-    <h2>Skills</h2>
-      <div className="profile-text">
-        <h3>中村 彩七</h3>
-        <p>愛知工業大学<br/>
-        情報科学部 情報科学科<br/>
-        メディア情報専攻</p>
-        <p>出身：愛知</p>
-        <p>趣味：散歩 ゲーム 読書 音楽鑑賞</p>
+    <h2>Products</h2>
+      <div className="Products-box">
+        <div className='Products-peace'>
+          <img src={MyIcon} alt="My Icon" className="profile-image" />
+          <h3>作品名</h3>
+          <p>作品詳細</p>
+        </div>
+        <div className='Products-peace'>
+          <img src={MyIcon} alt="My Icon" className="profile-image" />
+          <h3>作品名</h3>
+          <p>作品詳細</p>
+        </div>
+        <div className='Products-peace'>
+          <img src={MyIcon} alt="My Icon" className="profile-image" />
+          <h3>作品名</h3>
+          <p>作品詳細</p>
+        </div>
+        <div className='Products-peace'>
+          <img src={MyIcon} alt="My Icon" className="profile-image" />
+          <h3>作品名</h3>
+          <p>作品詳細</p>
+        </div>
       </div>
     </div>
   );
