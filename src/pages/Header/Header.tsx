@@ -1,25 +1,28 @@
-// import { useState } from 'react'
 import './Header.css';
+import GithubImage from './../../assets/images/github_square_logo.png';
+import XIcon from './../../assets/images/X_Twitter.png';
 
 function Header() {
-
   return (
     <header className='header'>
       <h1>Portfolio</h1>
       <nav>
         <ul className='nav'>
-          <a href="#about">About</a>
-          <a href="#skills">Skills</a>
-          <a href="#works">Works</a>
+          <li><a href="#about">about</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#products">Products</a></li>
         </ul>
       </nav>
       <div className='link-outside'>
-        <a href="#top">X</a>
-        <a href="#top">github</a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={GithubImage} alt="GitHub" />
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <img src={XIcon} alt="X" />
+        </a>
       </div>
-
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;

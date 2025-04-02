@@ -1,16 +1,11 @@
-import './Footer.css'
+import './Footer.css';
 
 function Footer() {
-
   return (
-    <>
-      <div className='footer'>
-      <p>愛知工業大学 情報科学部 情報科学科 メディア情報専攻</p>
-      <p>中村 彩七</p>
-      <a href="https://github.com/dashboard">github</a>
-      </div>
-    </>
-  )
+    <footer className='footer'>
+      <p>@2025 Ayana Nakamura. all right reserved.</p>
+    </footer>
+  );
 }
 
-export default Footer
+export default Footer;
