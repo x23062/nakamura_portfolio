@@ -6,14 +6,12 @@
   top: 0;
   left: 0;
   width: 100%;
-  height: 1000px; /* headerとprofile部分にだけ表示 */
+  height: 1000px;
   z-index: -1;
-  background: url('./assets/images/water02.jpeg');
+  background: url('./assets/images/water.jpg');
   background-size: cover;
   background-position: center;
-  /* background-repeat: no-repeat; */
-  /* width: 100%;
-  height: 100vh; */
+  background-repeat: no-repeat;
 }
 
 
@@ -25,9 +23,4 @@ body{
   padding: 0;
   font-family: 'Noto Serif JP', sans-serif;
   color: #333;
-
-  /* background: url('./assets/images/water02.jpeg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat; */
 }
