@@ -9,7 +9,7 @@ function Header() {
       <div className='header-right'>
       <nav>
         <ul className='nav'>
-          <li><a href="#about">profile</a></li>
+          <li><a href="#profile">profile</a></li>
           <li><a href="#skills">skills</a></li>
           <li><a href="#products">Products</a></li>
         </ul>

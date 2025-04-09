@@ -11,10 +11,11 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 14px;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.3);
 }
 .header h1 {
   padding-left: 30px;
+  color: #000;
 }
 
 .header-right {
@@ -30,7 +31,8 @@ header {
 
 .nav a {
   text-decoration: none;
-  color: black;
+  /* color: #333; */
+  color: #000;
   font-size: 18px;
 }
 

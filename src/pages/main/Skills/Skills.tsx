@@ -1,5 +1,4 @@
 import './Skills.css';
-// import MyIcon from './../../../assets/images/myicon.png';
 import ImgHTML from './../../../assets/images/html_logo.png';
 import ImgCSS from './../../../assets/images/css_logo.png';
 import ImgJs from './../../../assets/images/js_logo.svg.png';
@@ -23,7 +22,6 @@ function Skills() {
     <div className='skills'>
     <h2>Skills</h2>
     <div className="skills-container">
-      {/* <h2>Skills</h2> */}
       <div className="skills-icon">
         <div className='skills-peace'>
           <img src={ImgHTML} alt="My Icon" className="profile-image" />

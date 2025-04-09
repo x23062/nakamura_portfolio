@@ -6,21 +6,18 @@
 }
 
 .skills-container {
-  width: 100%;
   height: auto;
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(0, 0, 0, 0.3);
   border-radius: 15px;
   width: 80%;
   margin: 0 auto 8% auto;
   padding: 7% 2%;
-  /* padding:3% 2%; */
-  /* background-color: #FAFAFA; */
 }
 
 
 
 .skills-icon {
-  width: 80%;
+  width: 90%;
   height: auto;
   margin: 0 auto;
   display: flex;
@@ -30,9 +27,15 @@
   gap: 50px 30px;
 }
 
+.skills-peace  {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 5%;
+}
+
 .skills-peace img{
   width: 100px;
   height: 100px;
+  padding: 15px;
 }
 
 .skills-peace p{
