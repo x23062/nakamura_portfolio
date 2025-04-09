@@ -1,9 +1,25 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 14px;
   background: rgba(255, 255, 255, 0.5);
+}
+.header h1 {
+  padding-left: 30px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
 }
 
 .nav {
@@ -16,6 +32,11 @@
   text-decoration: none;
   color: black;
   font-size: 18px;
+}
+
+.link-outside {
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .link-outside img {

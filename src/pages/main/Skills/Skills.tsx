@@ -20,8 +20,10 @@ import ImgAe from './../../../assets/images/ae_logo.png';
 
 function Skills() {
   return (
+    <div className='skills'>
+    <h2>Skills</h2>
     <div className="skills-container">
-      <h2>Skills</h2>
+      {/* <h2>Skills</h2> */}
       <div className="skills-icon">
         <div className='skills-peace'>
           <img src={ImgHTML} alt="My Icon" className="profile-image" />
@@ -92,6 +94,7 @@ function Skills() {
           <p>Adobe <br />After Effects</p>
         </div>
       </div>
+    </div>
     </div>
   );
 }

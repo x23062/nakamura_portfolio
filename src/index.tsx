@@ -8,6 +8,7 @@ import Footer from './pages/Footer/Footer.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
+    <div className='background'></div>
     <Header />
     <Main />
     <Footer />
