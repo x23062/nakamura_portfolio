@@ -1,29 +1,34 @@
-h2 {
-  font-size: 28px;
+.products h2{
+  font-size: 2rem;
   text-align: center;
-  margin: 0px;
-  padding: 50px;
+  margin: 0;
+  padding: 20px;
 }
 
-h3 {
+.Products-container {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  width: 80%;
+  margin: 0 auto 8% auto;
+  padding: 7% 2%;
+  /* padding:3% 2%; */
+  /* background-color: #FAFAFA; */
+}
+
+.Products-container h3 {
   font-size: 18px;
   text-align: center;
   margin: 0px;
   padding: 0px;
 }
 
-p {
+.Products-container p {
   font-size: 16px;
   text-align: center;
   margin: 0px;
   padding: 0px;
-}
-
-.Products-container {
-  width: 100%;
-  height: auto;
-  padding: 3% 2%;
-  background-color: #CFE2DC;
 }
 
 .Products-box{

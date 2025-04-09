@@ -6,9 +6,10 @@ function Header() {
   return (
     <header className='header'>
       <h1>Portfolio</h1>
+      <div className='header-right'>
       <nav>
         <ul className='nav'>
-          <li><a href="#about">about</a></li>
+          <li><a href="#about">profile</a></li>
           <li><a href="#skills">skills</a></li>
           <li><a href="#products">Products</a></li>
         </ul>
@@ -21,6 +22,8 @@ function Header() {
           <img src={XIcon} alt="X" />
         </a>
       </div>
+      </div>
+
     </header>
   );
 }

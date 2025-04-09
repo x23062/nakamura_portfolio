@@ -1,3 +1,10 @@
+.profile h2{
+  font-size: 2rem;
+  text-align: center;
+  margin: 170px 0 0 0;
+  padding: 20px;
+}
+
 .profile-container {
   display: flex;
   align-items: center;
@@ -7,7 +14,8 @@
   background: rgba(255, 255, 255, 0.5);
   border-radius: 15px;
   width: 80%;
-  margin: 8% auto;
+  margin: 0 auto 8% auto;
+  /* margin: 22% auto 8% auto; */
 }
 
 .profile-image {
