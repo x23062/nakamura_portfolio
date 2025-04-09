@@ -1,6 +1,56 @@
+h2 {
+  font-size: 28px;
+  text-align: center;
+  margin: 0px;
+  padding: 50px;
+}
+
+h3 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
 .Products-container {
   width: 100%;
   height: auto;
   padding: 3% 2%;
   background-color: #CFE2DC;
+}
+
+.Products-box{
+  width: 80%;
+  height: auto;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 50px 30px;
+  margin: 0 auto;
+}
+
+
+
+.Products-peace {
+  width: 100%;
+  height: auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+  padding: 2%;
+  
+}
+
+.Products-peace img{
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
 }
