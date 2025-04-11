@@ -1,15 +1,15 @@
 import { Link } from 'react-router-dom';
 import './Products_about.css';
-import YofukashiImg from './../../../../assets/images/YOFUKASHI.png'; 
+import ColorImg from './../../../../assets/images/color.png'; 
 
 
-function Yofukashi () {
+function Color () {
   return (
     <div className='productsPage'>
       <div className='ProductsCard'>
         <div className='ProductsCardTitle'>
-          <h2>YOFUKASHI</h2>
-          <img src={YofukashiImg} alt="Yofukashiの写真" className='productsCardImg'/>
+          <h2>カラフル漢字マスター</h2>
+          <img src={ColorImg} alt="Colorの写真" className='productsCardImg'/>
         </div>
         <div className='productsCardText'>
           <div className='productsCardText_content'>
@@ -43,4 +43,4 @@ function Yofukashi () {
   );
 }
 
-export default Yofukashi;
+export default Color;
