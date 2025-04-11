@@ -1,5 +1,10 @@
 import './Products.css';
-import MyIcon from './../../../assets/images/myicon.png';
+import Ehho from './../../../assets/images/ehho.png';
+import YOFUKASHI from './../../../assets/images/YOFUKASHI.png';
+import Omasuke from './../../../assets/images/omasuke.png';
+import Color from './../../../assets/images/color.png';
+import Cake from './../../../assets/images/cake.png';
+import Idea from './../../../assets/images/idea.png';
 
 function Products() {
   return (
@@ -8,27 +13,27 @@ function Products() {
       <div className="Products-container">
         <div className="Products-box">
           <div className='Products-peace'>
-            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <img src={Ehho} alt="My Icon" className="profile-image" />
             <h3>ehho</h3>
           </div>
           <div className='Products-peace'>
-            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <img src={YOFUKASHI} alt="My Icon" className="profile-image" />
             <h3>YOFUKASHI</h3>
           </div>
           <div className='Products-peace'>
-            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <img src={Omasuke} alt="My Icon" className="profile-image" />
             <h3>おまスケ！</h3>
           </div>
           <div className='Products-peace'>
-            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <img src={Idea} alt="My Icon" className="profile-image" />
             <h3>アイデアみっけ</h3>
           </div>
           <div className='Products-peace'>
-            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <img src={Cake} alt="My Icon" className="profile-image" />
             <h3>ケーキチャレンジ</h3>
           </div>
           <div className='Products-peace'>
-            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <img src={Color} alt="My Icon" className="profile-image" />
             <h3>カラフル漢字マスター</h3>
           </div>
         </div>
