@@ -9,23 +9,27 @@ function Products() {
         <div className="Products-box">
           <div className='Products-peace'>
             <img src={MyIcon} alt="My Icon" className="profile-image" />
-            <h3>作品名</h3>
-            <p>作品詳細</p>
+            <h3>ehho</h3>
           </div>
           <div className='Products-peace'>
             <img src={MyIcon} alt="My Icon" className="profile-image" />
-            <h3>作品名</h3>
-            <p>作品詳細</p>
+            <h3>YOFUKASHI</h3>
           </div>
           <div className='Products-peace'>
             <img src={MyIcon} alt="My Icon" className="profile-image" />
-            <h3>作品名</h3>
-            <p>作品詳細</p>
+            <h3>おまスケ！</h3>
           </div>
           <div className='Products-peace'>
             <img src={MyIcon} alt="My Icon" className="profile-image" />
-            <h3>作品名</h3>
-            <p>作品詳細</p>
+            <h3>アイデアみっけ</h3>
+          </div>
+          <div className='Products-peace'>
+            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <h3>ケーキチャレンジ</h3>
+          </div>
+          <div className='Products-peace'>
+            <img src={MyIcon} alt="My Icon" className="profile-image" />
+            <h3>カラフル漢字マスター</h3>
           </div>
         </div>
       </div>
