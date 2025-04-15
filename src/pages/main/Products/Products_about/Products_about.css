@@ -55,6 +55,14 @@
   font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
+.productsPage a {
+  font-size: 1rem;
+  text-align: start;
+  margin: 0px;
+  padding: 0px 10px 10px 10px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 .productsCardText {
   width: 70%;
   height: auto;
@@ -77,7 +85,7 @@
 .backButton {
   width: 100px;
   height: 30px;
-  background: #85b9e7;
+  background: #e0e0e0;
   color: #333;
   border: none;
   border-radius: 5px;

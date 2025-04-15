@@ -85,11 +85,11 @@ function Skills() {
         </div>
         <div className='skills-peace'>
           <img src={ImgAi} alt="My Icon" className="profile-image" />
-          <p>Adobe <br />Illustrator</p>
+          <p>Adobe <br/>Illustrator</p>
         </div>
         <div className='skills-peace'>
           <img src={ImgAe} alt="My Icon" className="profile-image" />
-          <p>Adobe <br />After Effects</p>
+          <p>Adobe <br/>After Effects</p>
         </div>
       </div>
     </div>

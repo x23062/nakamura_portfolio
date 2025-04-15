@@ -24,10 +24,10 @@ function Header() {
         </ul>
       </nav>
       <div className='link-outside'>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/x23062" target="_blank" rel="noopener noreferrer">
           <img src={GithubImage} alt="GitHub" />
         </a>
-        <a href="#" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/aya99310010" target="_blank" rel="noopener noreferrer">
           <img src={XIcon} alt="X" />
         </a>
       </div>

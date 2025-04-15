@@ -18,7 +18,9 @@ function Idea () {
           </div>
           <div className='productsCardText_content'>
             <h3>技術構成</h3>
-            <p>詳細文</p>
+            <p>
+              詳細文
+            </p>
           </div>
           <div className='productsCardText_content'>
             <h3>担当部分</h3>
