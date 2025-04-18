@@ -6,19 +6,12 @@
   ],
   "compilerOptions": {
     "jsx": "react-jsx",
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@/*": ["src/*"]
     },
-    "lib": ["dom", "esnext"], // document や window を使うため
-    "module": "esnext",
-    "target": "esnext",
-    "moduleResolution": "node",
-    "allowJs": true,
-    "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "strict": true,
-    "skipLibCheck": true
+    "target": "ESNext",
+    "lib": ["DOM", "ESNext"],
   }
 }
 
