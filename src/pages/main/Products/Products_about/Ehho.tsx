@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Products_about.css';
-import EhhoImg from './../../../../assets/images/ehho.png'; 
+import EhhoImg from '@/assets/images/ehho.png'; 
 
 
 function Ehho () {
@@ -45,6 +45,7 @@ function Ehho () {
           <div className='productsCardText_content'>
             <h3>関連リンク</h3>
             <a href="https://github.com/watagassa/ehho">GitHub</a>
+            <a href="https://www.canva.com/design/DAGjRlNGFfU/4OHJXQJUC-ol8NWQPRLdgg/edit">発表スライド</a>
           </div>
         </div>
         <div className='backButtonContainer'>

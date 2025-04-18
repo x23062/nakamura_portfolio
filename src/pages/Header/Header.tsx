@@ -1,6 +1,6 @@
 import './Header.css';
-import GithubImage from './../../assets/images/github_square_logo.png';
-import XIcon from './../../assets/images/X_Twitter.png';
+import GithubImage from '@/assets/images/github_square_logo.png';
+import XIcon from '@/assets/images/X_Twitter.png';
 
 function Header() {
 

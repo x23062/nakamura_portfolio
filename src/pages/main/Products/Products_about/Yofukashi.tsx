@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Products_about.css';
-import YofukashiImg from './../../../../assets/images/YOFUKASHI.png'; 
+import YofukashiImg from '@/assets/images/YOFUKASHI.png'; 
 
 
 function Yofukashi () {
@@ -47,6 +47,7 @@ function Yofukashi () {
             <h3>関連リンク</h3>
             <a href="https://yofukashi.web.app/">アプリページ</a>
             <a href="https://github.com/geekcamp-2023-11-18">GitHub</a>
+            <a href="https://www.canva.com/design/DAGiANf0nPY/C5hG-cDaufYVMtHPeT8BTA/edit">発表スライド</a>
           </div>
         </div>
         <div className='backButtonContainer'>

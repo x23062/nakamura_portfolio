@@ -1,12 +1,12 @@
 import { Link } from 'react-router-dom';
-import { useScrollStore } from '../../../store/scrollStore';
+import { useScrollStore } from '@/store/scrollStore';
 import './Products.css';
-import EhhoImg from './../../../assets/images/ehho.png';
-import YOFUKASHIImg from './../../../assets/images/YOFUKASHI.png';
-import OmasukeImg from './../../../assets/images/omasuke.png';
-import ColorImg from './../../../assets/images/color.png';
-import CakeImg from './../../../assets/images/cake.png';
-import IdeaImg from './../../../assets/images/idea.png';
+import EhhoImg from '@/assets/images/ehho.png';
+import YOFUKASHIImg from '@/assets/images/YOFUKASHI.png';
+import OmasukeImg from '@/assets/images/omasuke.png';
+import ColorImg from '@/assets/images/color.png';
+import CakeImg from '@/assets/images/cake.png';
+import IdeaImg from '@/assets/images/idea.png';
 
 
 function Products() {
